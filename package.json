@@ -1,0 +1,42 @@
+{
+  "name": "component-name-here",
+  "version": "0.0.1",
+  "description": "Put a description here",
+  "main": "build/index.js",
+  "peerDependencies": {
+    "react": "^15.5.4"
+  },
+  "dependencies": {
+    "@types/react": "^16.7.18",
+    "react": "^15.5.4",
+    "webpack": "^2.6.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --watch",
+    "build": "tsc && webpack",
+    "link": "component-name-here"
+  },
+  "author": {
+    "name": "Victor Barbosa",
+    "email": "victor.hugp.p.barbosa@hotmail.com",
+    "url": "https://github.com/VictorBarbosa"
+  },
+  "devDependencies": {
+    "@types/node": "^10.12.18",
+    "@types/webpack": "^4.4.22",
+    "@types/webpack-dev-server": "^3.1.1",
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.5.1",
+    "css-loader": "^2.0.2",
+    "style-loader": "^0.23.1",
+    "ts-loader": "^5.3.2",
+    "ts-node": "^7.0.1",
+    "tsconfig-paths": "^3.7.0",
+    "typescript": "^3.2.2"
+  }
+}
